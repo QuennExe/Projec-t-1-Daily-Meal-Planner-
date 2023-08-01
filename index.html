@@ -1,0 +1,34 @@
+
+<!--   100 project challenges in 100 days  Project #1 Daily Meal Planner -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>  Menu of the Day </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1> 🌷𝙈𝙚𝙣𝙪 𝙤𝙛 𝙩𝙝𝙚 𝘿𝙖𝙮 🌷 </h1>
+    <button id="menuButton" onclick="showMenu()"> 𝙇𝙚𝙩'𝙨 !!   𝘾𝙝𝙤𝙤𝙨𝙚 𝙩𝙝𝙚 𝙈𝙚𝙖𝙡 𝙤𝙛 𝙩𝙝𝙚 𝘿𝙖𝙮 </button>
+
+    <div id="menu" style="display:none;">
+        <h2>𝙈𝙚𝙣𝙪</h2>
+        <button id="anaYemekButton" onclick="showRecipe('anaYemek')"> 𝙈𝙖𝙞𝙣 𝘾𝙤𝙪𝙧𝙨𝙚 </button>
+        <button id="araSicakButton" onclick="showRecipe('araSicak')"> 𝙎𝙚𝙖𝙧𝙘𝙝 𝙃𝙤𝙩 </button>
+        <button id="tatliButton" onclick="showRecipe('tatli')"> 𝘿𝙚𝙨𝙨𝙚𝙧𝙩  </button>
+        <button id="icecekButton" onclick="showRecipe('icecek')"> 𝘿𝙧𝙞𝙣𝙠 </button>
+    </div>
+<!-- @Lolita-->
+    <div id="ingredients" style="display:none;">
+        <h2>𝙈𝙖𝙩𝙚𝙧𝙞𝙖𝙡𝙨</h2>
+        <ul id="malzemeler"></ul>
+    </div> 
+
+    <div id="recipe" style="display:none;">
+        <h2> 𝙎𝙥𝙚𝙘𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣</h2>
+        <p id="tarif"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
